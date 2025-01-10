@@ -33,8 +33,9 @@ body{
 }
 @font-face {
     font-family: gillroy;
-    src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf);
-    src: url(./Gilroy-FREE/Gilroy-Light.otf);
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+src: url();
+    src: url();
 }
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 #container{

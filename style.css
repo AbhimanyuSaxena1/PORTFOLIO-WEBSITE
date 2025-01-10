@@ -28,7 +28,7 @@ body{
 
     /* src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf); */
     /* src: url(./Gilroy-FREE/Gilroy-Light.otf) */
-    src:url("Work_Sans/static/");
+    src:url("Work_Sans/WorkSans-VariableFont_wght.ttf");
     font-display: swap;
 }
 @font-face {
@@ -38,6 +38,7 @@ src: url();
     src: url();
 }
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
 #container{
     background-color: #0F0F0F;
 }

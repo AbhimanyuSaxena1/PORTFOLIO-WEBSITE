@@ -16,7 +16,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: monument;
-    src: url(D:\FRONT_END_DOMINATION\projects\PORTFOLIO_WEBSITE\Monument);
+    src: url("Monument/MonumentExtended-Regular.otf");
     font-display: swap;
     /* src: url(./fonts/MonumentExtended-Regular.otf) */
     /* src: url(./fonts/PPMonumentExtended-Regular.otf); */
@@ -28,7 +28,7 @@ body{
 
     /* src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf); */
     /* src: url(./Gilroy-FREE/Gilroy-Light.otf) */
-    src:url(D:\FRONT_END_DOMINATION\projects\PORTFOLIO_WEBSITE\Work_Sans);
+    src:url("Work_Sans/static/");
     font-display: swap;
 }
 @font-face {
@@ -272,4 +272,198 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #0f0f0f;
+}
+@media(max-width: 600px) {
+    
+#nav{   
+    height: 10vh;
+}
+#nav1{
+    margin-left: 2vw;
+    width: 30%;
+    letter-spacing: -.3vw;
+}
+#nav2{
+    margin-right: 2vw;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+}
+#nav #nav2 h2{
+    font-size: 1.5vh;
+}
+#nav h2{
+    font-size: 2vh;
+}
+
+
+
+#nav1 h2:hover{
+    color: orange;
+    cursor: pointer;
+}
+#nav2 h2:nth-child(1):hover{
+    color: rgb(243, 12, 196);
+    cursor: pointer;
+    text-decoration: underline;    
+}
+#nav2 h2:nth-child(1):hover i{
+    display: none;
+}
+
+#nav2 h2:nth-child(2):hover{
+
+}
+#nav2 h2:nth-child(3):hover{
+    color: rgb(251, 167, 50);
+    text-decoration: underline;
+}
+#center{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+#center img{
+    height: 45vw;
+    width:35vw;
+    top: 45%;
+    left: 50vw;
+}
+#img1{
+    rotate: 13deg;
+}
+#img2{
+    rotate: 8deg;
+}
+#img3{
+    rotate: 3deg;
+}
+#img4{
+    rotate: -3deg;
+}
+#text{
+    color: white;
+    line-height: 12vw;
+}
+#text h1{
+}
+#text h1:nth-child(1){
+    margin-left: 5vw;
+    font-size: 13vw;
+    letter-spacing: -.7vw;
+}
+#text h1 span{
+    color: yellow;
+}
+
+#text h1:nth-child(2){
+    margin-left: 22%;
+    width: 40%;
+    font-size: 13.5vw;
+    letter-spacing: -.7vw;
+    color: aqua ;
+    /* background-color: red; */
+}
+#text h1:nth-child(3){
+    margin-left: 45%;
+    /* margin-right: 5; */
+    letter-spacing: -.7vw;
+    width: 40%;
+    font-size: 13vw;
+    /* background-color: red; */
+}
+
+#bottom{
+    height: 100vh;
+    width: 100%;
+    /* overflow-x: hidden; */
+    background-color: #0F0F0F;
+}
+#bottom #page1{
+    height: 100%;
+    width: 100%;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+}
+#bottom #page1 h1{
+    font-size: 40vw;
+    font-family: monument;
+    -webkit-text-stroke: 3px white; /* Outline color and width */
+    font-weight: 500;
+    letter-spacing: -1vw;
+    white-space: nowrap;
+    color: #0F0F0F;
+}
+#D{
+    -webkit-text-stroke: 3px aqua;
+}
+#R{
+    -webkit-text-stroke: 3px yellow;
+}
+#V{
+    -webkit-text-stroke: 3px orangered;
+}
+#W{
+    -webkit-text-stroke: 3px orange;
+}
+#page3{
+    /* background-color: linear-gradient(#0F0F0F);
+     */
+    background: linear-gradient(to left bottom,#0F0F0F,#0f0f0f,white);
+}
+#images{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw ;
+
+    
+}
+.imagediv{
+    overflow: hidden;
+    /* background-color: red; */
+    height: 100%;
+    width: 30%;
+    /* scale: 0; */
+    
+    /* border-radius: 10%; */
+    /* padding: 2vw 2vw; */
+}
+#images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 2%; */
+}
+#about{
+    min-height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(to left top,#0F0F0F,#0f0f0f,white); */
+    /* background-color: #0F0F0F;
+     */
+    background: linear-gradient(to left top,#0F0F0F,#0f0f0f,white);
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 4vw;
+
+}
+#about h1{
+    text-align: center;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+    /* -webkit-text-stroke: 2px white; */
+    color: black;
+
+    font-family: monument;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+    
 }

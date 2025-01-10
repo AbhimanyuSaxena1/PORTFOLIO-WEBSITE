@@ -16,7 +16,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: monument;
-    src: url(./fonts/MonumentExtended-Ultrabold.otf);
+    src: url(D:\FRONT_END_DOMINATION\projects\PORTFOLIO_WEBSITE\Monument);
     font-display: swap;
     /* src: url(./fonts/MonumentExtended-Regular.otf) */
     /* src: url(./fonts/PPMonumentExtended-Regular.otf); */
@@ -28,7 +28,7 @@ body{
 
     /* src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf); */
     /* src: url(./Gilroy-FREE/Gilroy-Light.otf) */
-    src:url(./Work_Sans/WorkSans-VariableFont_wght.ttf);
+    src:url(D:\FRONT_END_DOMINATION\projects\PORTFOLIO_WEBSITE\Work_Sans);
     font-display: swap;
 }
 @font-face {

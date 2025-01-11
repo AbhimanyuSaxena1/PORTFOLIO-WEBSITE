@@ -425,11 +425,14 @@ src: url();
     overflow: hidden;
     /* background-color: red; */
     height: 100%;
-    width: 25%;
+    width:40%;
     /* scale: 0; */
     
     /* border-radius: 10%; */
     /* padding: 2vw 2vw; */
+}
+#images #image2{
+    display: none;
 }
 
 #images img{
@@ -437,8 +440,7 @@ src: url();
     width: 100%;
     object-fit: cover;
 }
-    /* border-radius: 2%; */
-}
+
 #about{
     min-height: 100vh;
     width: 100%;
@@ -467,3 +469,4 @@ src: url();
     background-color: #0f0f0f;
 }
     
+}

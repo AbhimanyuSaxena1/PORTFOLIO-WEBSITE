@@ -209,8 +209,8 @@ mm.add("(max-width:600px)",()=>{
             trigger:"#about h1 span",
             scroller:"#container",
             scrub:5,
-            start:"top 70%",
-            end:"top 10%"
+            start:"top 68%",
+            end:"top 12%"
         }
     })
 })

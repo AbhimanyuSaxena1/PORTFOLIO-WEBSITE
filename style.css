@@ -207,6 +207,7 @@ src: url();
     letter-spacing: -1vw;
     white-space: nowrap;
     color: #0F0F0F;
+    background-color: #0F0F0F;
 }
 #D{
     -webkit-text-stroke: 3px aqua;
@@ -407,6 +408,7 @@ src: url();
     font-size: 55vw;
     font-weight: 100;
     letter-spacing: -1.8vw;
+    color: #0F0F0F;
 }
 #page3{
     padding: 5vw;

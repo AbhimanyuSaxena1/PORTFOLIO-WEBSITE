@@ -203,4 +203,15 @@ mm.add("(max-width:600px)",()=>{
             // markers: true
         }
     })
+    gsap.to("#about h1 span",{
+        fontSize:"7vw",
+        lineHeight:"7vw",
+        scrollTrigger:{
+            trigger:"#about h1 span",
+            scroller:"#container",
+            scrub:5,
+            start:"top 70%",
+            end:"top 10%"
+        }
+    })
 })

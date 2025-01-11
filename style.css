@@ -12,6 +12,7 @@ html,body{
 }
 body{
     overflow-x: hidden;
+    background-color: #0F0F0F;
 }
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {

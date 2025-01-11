@@ -118,7 +118,7 @@ mm.add("(min-width:601px)",()=>{
 
 mm.add("(max-width:600px)",()=>{
     //MOBILE
-    
+    scroll = smooth
     
     function navAnimation(){
         tl.from("nav",{
